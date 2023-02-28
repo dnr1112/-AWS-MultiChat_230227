@@ -11,7 +11,7 @@ public class ServerApplication {
 	public static void main(String[] args) {
 		JFrame serverFrame = new JFrame("서버");
 		serverFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		serverFrame.setSize(300, 300);
+		serverFrame.setBounds(1500, 50, 200, 100);
 		serverFrame.setVisible(true);
 		
 		
